@@ -95,6 +95,15 @@ with col2:
 # Instructions in sidebar
 with st.sidebar:
     st.markdown("---")
+    st.markdown("### 💡 How to get your own Google API Key:")
+    st.markdown("""
+    1. Log on to aistudio.google.com using your Google account.
+    2. Click the "Get API Key" at the bottom left of the page. 
+    3. Click "Create API Key" at the top right of the page. 
+    4. Copy the API key and paste it above.
+    """)
+    
+    st.markdown("---")
     st.markdown("### 💡 How to use:")
     st.markdown("""
     1. Enter your Google API key
